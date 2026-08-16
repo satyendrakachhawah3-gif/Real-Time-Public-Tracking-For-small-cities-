@@ -196,7 +196,7 @@ export default function RouteExplorer() {
 
                   {/* Stop Sequence preview */}
                   <h4 className="text-xs font-semibold text-slate-300 uppercase tracking-wider mt-3">
-                    Station Sequence ({routeStops.length})
+                    Station Sequence & Timetable ({routeStops.length})
                   </h4>
                   <div className="space-y-1.5">
                     {routeStops.map((st, idx) => (

@@ -218,7 +218,7 @@ export default function DispatchAdmin() {
       {/* Fleet Telemetry Table */}
       <div className="glass-card rounded-2xl border border-slate-800 overflow-hidden shadow-xl">
         <div className="bg-slate-900 px-4 py-3 border-b border-slate-800 text-xs font-bold text-slate-400 uppercase tracking-wider">
-          Active Fleet Telemetry Roster ({vehicles.length})
+          Active Fleet Telemetry & Performance Roster ({vehicles.length})
         </div>
 
         <div className="overflow-x-auto">

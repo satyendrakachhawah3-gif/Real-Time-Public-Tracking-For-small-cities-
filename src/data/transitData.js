@@ -8,7 +8,7 @@ export const CITY_CONFIG = {
   zoom: 13,
   timeZone: "America/Los_Angeles",
   flatFare: 1.50,
-  discountFare: 0.75,
+  discountFare: 0.75, co2PerKmKg: 0.18,
   operatingHours: "5:30 AM - 11:30 PM", holidaySchedule: "7:00 AM - 9:00 PM",
   customerService: "1-800-555-PULSE"
 };

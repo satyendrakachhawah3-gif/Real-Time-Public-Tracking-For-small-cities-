@@ -168,3 +168,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .route-polyline-glow {
   filter: drop-shadow(0px 0px 8px currentColor);
 }
+@keyframes beaconGlow {
+  0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7); }
+  70% { box-shadow: 0 0 0 12px rgba(59, 130, 246, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+}
+.beacon-glow { animation: beaconGlow 2s infinite; }

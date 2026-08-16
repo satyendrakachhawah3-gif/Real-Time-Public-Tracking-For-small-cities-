@@ -146,7 +146,7 @@ export default function Navbar() {
           <button
             onClick={toggleTheme}
             className="p-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:border-slate-700 transition-all"
-            title="Toggle Light/Dark Theme"
+            title="Toggle Light/Dark Theme (Hotkey: Alt+T)"
           >
             {theme === 'dark' ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-indigo-400" />}
           </button>

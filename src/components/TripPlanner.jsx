@@ -147,7 +147,7 @@ export default function TripPlanner() {
 
             <div className="p-3 rounded-2xl bg-slate-900/80 border border-slate-800 text-center">
               <span className="text-[10px] text-slate-400 block mb-1 flex items-center justify-center gap-1">
-                <DollarSign className="w-3 h-3 text-emerald-400" /> Small City Fare
+                <DollarSign className="w-3 h-3 text-emerald-400" /> Standard Flat Fare
               </span>
               <span className="font-heading font-extrabold text-base text-emerald-400">
                 ${cityConfig.flatFare.toFixed(2)}

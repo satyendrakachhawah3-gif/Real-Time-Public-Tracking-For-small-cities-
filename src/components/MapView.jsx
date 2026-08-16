@@ -27,7 +27,7 @@ function MapRecenter({ center, zoom }) {
   return null;
 }
 
-export default function MapView() {
+export default React.memo(function MapView() {
   const { 
     cityConfig, 
     routes, 

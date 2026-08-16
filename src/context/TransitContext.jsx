@@ -17,7 +17,7 @@ export function TransitProvider({ children }) {
   const [activeTab, setActiveTab] = useState('map'); // 'map', 'routes', 'planner', 'board', 'dispatch', 'alerts'
   const [theme, setTheme] = useState('dark');
   const [searchQuery, setSearchQuery] = useState('');
-  const [trafficIncident, setTrafficIncident] = useState(false);
+  const [trafficIncident, setTrafficIncident] = useState(false); const [soundEnabled, setSoundEnabled] = useState(true);
   const [simulationTickCount, setSimulationTickCount] = useState(0);
 
   // Toggle Theme

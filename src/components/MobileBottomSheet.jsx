@@ -18,7 +18,7 @@ export default function MobileBottomSheet() {
           onClick={() => setIsOpen(true)}
           className="px-4 py-2.5 rounded-full bg-slate-900/90 text-white font-semibold text-xs border border-slate-700 shadow-2xl flex items-center gap-2 backdrop-blur-md"
         >
-          <ChevronUp className="w-4 h-4 text-blue-400" /> Open Transit Controls
+          <ChevronUp className="w-4 h-4 text-blue-400" /> Open Live Transit Controls
         </button>
       </div>
     );

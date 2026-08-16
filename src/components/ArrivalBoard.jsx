@@ -89,7 +89,7 @@ export default function ArrivalBoard() {
       <div className="flex items-center justify-between gap-3 mb-4">
         <div>
           <h2 className="font-heading font-extrabold text-xl text-white flex items-center gap-2">
-            <Clock className="w-5 h-5 text-emerald-400" /> Station Arrival Board
+            <Clock className="w-5 h-5 text-emerald-400" /> Live Station Arrival Board
           </h2>
           <p className="text-xs text-slate-400 mt-1">
             Live digital departure countdown for Grandview Springs transit stations.

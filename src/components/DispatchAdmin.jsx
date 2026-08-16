@@ -164,7 +164,7 @@ export default function DispatchAdmin() {
         </div>
 
         <span className="text-xs text-slate-400 font-mono-code">
-          System Latency: <strong className="text-emerald-400">12ms</strong>
+          Daily Fleet Miles: 1,420 mi • System Latency: <strong className="text-emerald-400">12ms</strong>
         </span>
       </div>
 

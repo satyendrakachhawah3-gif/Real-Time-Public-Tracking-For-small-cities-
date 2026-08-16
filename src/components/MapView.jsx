@@ -172,7 +172,7 @@ export default function MapView() {
             positions={route.path}
             pathOptions={{
               color: route.color,
-              weight: activeRouteId === route.id ? 7 : 4,
+              weight: activeRouteId === route.id ? 8 : 4,
               opacity: activeRouteId === route.id ? 0.95 : 0.7,
               lineCap: 'round',
               lineJoin: 'round'

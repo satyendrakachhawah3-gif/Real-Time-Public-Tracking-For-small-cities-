@@ -57,7 +57,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3">
             <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-500 to-emerald-400 p-0.5 shadow-lg shadow-blue-500/20">
               <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
-                <Bus className="w-5 h-5 text-blue-400 animate-pulse" />
+                <Bus className="w-5 h-5 text-blue-400 animate-pulse text-blue-400 font-bold" />
               </div>
             </div>
             <div>
@@ -131,7 +131,7 @@ export default function Navbar() {
 
           {/* Traffic Status Indicator */}
           {trafficIncident ? (
-            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-medium animate-pulse">
+            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-medium animate-pulse text-blue-400 font-bold">
               <AlertTriangle className="w-3.5 h-3.5" />
               <span>Traffic Delay Active</span>
             </div>
